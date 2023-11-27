@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(90deg, rgb(220, 220, 220) 0%, rgb(169, 169, 169) 100%);
+}
+
+.img-santos{
+}
+
+.top-santos-titulo {
+    padding: 10px;
+    background-color: rgb(151, 151, 160);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-santos {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  padding: 8px;
+  width: 100%;
+  
+}
+
+.top-santos-h1 {
+  padding: 10px;
+  height: 30px;
+  border: 7px solid blue;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.top-santos--cabeca {
+  padding: 10px;
+  border: 7px solid rgb(58, 60, 190);
+  border-radius: 20px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  height: 20px;
+}
+
+.top-santos--cabeca:hover {
+  color: rgb(255, 6, 6);
+  transform: scale(1.10)
+}
+
+
+
+.History-a {
+  border: 7px solid blue;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.santos-fc {
+    padding: 20px;
+    border: 7px solid rgb(49, 24, 194);
+    border-radius: 10px;
+    
+}
+
+.principais-titulos {
+  border: 7px solid blue;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.lista-titulos {
+  border: 7px solid blue;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+.top-bar-cabecalho {
+    justify-content: space-between;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 20px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-spacing: 10px;
+}
+
+
+.top-bar--titulo-tabela {
+  background-color: darkgray;
+  border: cornsilk;
+  
+}
+
+
+.princ {
+  text-align: center;
+  border: 7px solid blue;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.prinplayers {
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.card-jogadores {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+
+.sec {
+  padding: 10px;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(159, 159, 253);
+  opacity: 0.8;
+}
+
+.card-1 {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(94, 94, 241);
+}
+
+.pele-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-2  {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(94, 94, 241);
+}
+
+.neymar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-3 {
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(94, 94, 241);
+}
+
+.zito-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.card-4{
+  text-align: center;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(94, 94, 241);
+}
+
+.pepe-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.but{
+  padding: 10px;
+  color: #fff;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: olivedrab;
+  margin: 20px;
+}
+
+.top-bar--rodape {
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 7px solid rgb(136, 154, 236);
+    border-radius: 20px;
+    background-color: rgb(57, 75, 238);
+    margin-bottom: 5px;
+    text-align: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
