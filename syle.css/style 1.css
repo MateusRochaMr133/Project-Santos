@@ -3,47 +3,73 @@
   padding: 0;
 }
 
-html {
-  background: linear-gradient(90deg, rgb(220, 220, 220) 0%, rgb(169, 169, 169) 100%);
-}
-
-.img-santos{
-}
-
-.top-santos-titulo {
-    padding: 10px;
-    background-color: rgb(151, 151, 160);
-    height: 100px;
+body, html {
+    background-color: #74B7C6;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  /*background: linear-gradient(90deg, rgb(13, 161, 230) 0%, rgb(169, 169, 169) 100%);*/
+}
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+.img-santos{
 }
 
 .menu-santos {
   display: flex;
+  align-items: center;
   margin: 20px;
   justify-content: space-around;
-  padding: 8px;
+  padding: 20px;
   width: 100%;
-  
+  background-color: #555B6F;
 }
 
-.top-santos-h1 {
-  padding: 10px;
-  height: 30px;
-  border: 7px solid blue;
-  border-radius: 20px;
-  margin: 10px;
+.menu-santos li{
+  list-style: none;
+  display: inline-block;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
 }
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-santos-titulo {
+  padding: 10px;
+  height: 60px;
+  /*border: 7px solid blue;
+  border-radius: 20px;*/
+  margin: 10px 20px;
+}
+
+/*.img-santos-titulo {
+    margin: 40px 30px ;
+    width: 60px;
+    padding: 20px;
+    
+}*/
 
 .top-santos--cabeca {
-  padding: 10px;
-  border: 7px solid rgb(58, 60, 190);
-  border-radius: 20px;
+  padding: 20px;
+  /*border: 7px solid rgb(58, 60, 190);
+  border-radius: 20px;*/
   text-align: center;
   justify-content: space-around;
   display: flex;
   height: 20px;
+  color: white;
 }
 
 .top-santos--cabeca:hover {
@@ -58,31 +84,31 @@ html {
   border-radius: 20px;
   text-align: center;
   padding: 15px;
+  margin: 20px;
 }
 
 .santos-fc {
     padding: 20px;
-    border: 7px solid rgb(49, 24, 194);
+    /*border: 7px solid rgb(49, 24, 194);*/
     border-radius: 10px;
+    list-style: none;
     
 }
 
 .principais-titulos {
   border: 7px solid blue;
+  border-radius: 20px;
   text-align: center;
   padding: 10px;
-  margin: auto;
+  margin: 20px;
 }
 
 .lista-titulos {
-  border: 7px solid blue;
-  border-radius: 20px;
   margin: auto;
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  text-align: center;
-  
+  list-style: none;
 }
 
 .top-bar-cabecalho {
@@ -117,7 +143,6 @@ html {
 .prinplayers {
   text-align: center;
   padding: 10px;
-  text-align: center;
 }
 
 
@@ -126,7 +151,6 @@ html {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  
 }
 
 .sec {
@@ -135,6 +159,8 @@ html {
   border-radius: 10px;
   background-color: rgb(159, 159, 253);
   opacity: 0.8;
+  text-align: center;
+  margin: 20px;
 }
 
 .card-1 {
@@ -222,6 +248,72 @@ html {
   margin: 20px;
 }
 
+.top-bar-vila {
+  text-align: center;
+}
+
+
+.Vila-Belmiro {
+  border: 7px solid #6A8FEE;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-vila-belmiro {
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+}
+
+.top-proximos {
+  text-align: center;
+}
+
+.top-proximos-jogos {
+  border: 7px solid #6A8FEE;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-jogos {
+  padding: 100px;
+  margin: 20px;
+}
+
+.informaçoes-estadio {
+  text-align: center;
+  border: 7px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+.top-elenco {
+  
+}
+
+.elenco-atual {
+  border: 7px solid #6A8FEE;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.top-bar-imagens {
+  
+}
+.jogadores-elenco {
+  border: 7px solid black;
+  padding: 20px;
+  margin-right: 1680px;
+}
+
+.img-joaquim {
+  width: 250px;
+  height: 250px;
+}
 .top-bar--rodape {
     padding: 20px;
     margin-left: 5%;
