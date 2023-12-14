@@ -397,12 +397,16 @@ i {
   
   .paragrafo-vila-belmirop {
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
   }
 
   .img-vila-belmiro {
     width: 200px;
     height: 200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .princ {
